@@ -16,7 +16,7 @@ BLOCKLIST_FILE = "blocklist.txt"
 DISCORD_ALERT_FILE = "latest_discord_alert.txt"
 
 # Put your Discord webhook URL here if you want direct posting
-DISCORD_WEBHOOK_URL = ***REMOVED***
+DISCORD_WEBHOOK_URL = DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL")
 
 
 def ensure_files():
