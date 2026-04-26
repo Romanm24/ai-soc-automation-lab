@@ -64,7 +64,7 @@
     {
       "parameters": {
         "method": "POST",
-        "url": "***REMOVED***",
+        "url": "WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL") ",
         "sendBody": true,
         "bodyParameters": {
           "parameters": [
