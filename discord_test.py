@@ -2,7 +2,7 @@ import json
 import urllib.request
 import urllib.error
 
-WEBHOOK_URL = "https://discord.com/api/webhooks/1495660209601777775/ipVZRylgoIQa7oafbfb1AMfiYvRAP5BkL-IODtSwJvbMmq3hBPyz7AczI8P3b2c-aTwt"
+WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL")
 
 payload = {
     "content": "SOC test message from Python"
